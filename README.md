@@ -1,7 +1,43 @@
-# transformer-english2chinese
+# TRA3: a TRAnsformer-Based TRAditional Chinese TRAslation Model
 
-1、默认使用cpu运行，若想使用gpu，将代码第33行的DEVICE = ‘cpu’ 改为DEVICE = ‘cuda’即可
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-2、python transformer_nmt.py执行
+A brief description of your project.
 
-博客链接[基于Transformer的翻译模型（英-＞中）](https://blog.csdn.net/qq_44193969/article/details/116016404?spm=1001.2014.3001.5502)
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+Instructions on how to install and run your project.
+
+```bash
+$ git clone https://github.com/your-username/your-repo.git
+$ cd your-repo
+$ npm install
+```
+
+## Usage
+
+Instructions on how to use your project.
+
+```bash
+$ npm start
+```
+
+## Contributing
+
+Guidelines on how to contribute to your project.
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
