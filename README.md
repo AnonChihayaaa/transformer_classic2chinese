@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A brief description of your project.
+This is the implementation of TRA3, a TRAnsformer-Based TRAditional Chinese TRAslation Model. TRA3 is a model that translates between Traditional Chinese and Simplified Chinese. It is based on the Transformer architecture and is trained on the a subset of the [Classical Chinese](https://github.com/BangBOOM/Classical-Chinese/tree/master) dataset.
 
 ## Table of Contents
 
@@ -16,9 +16,13 @@ A brief description of your project.
 Instructions on how to install and run your project.
 
 ```bash
-$ git clone https://github.com/your-username/your-repo.git
-$ cd your-repo
-$ npm install
+$ git clone https://github.com/AnonChihayaaa/transformer-classic2chinese-.git
+$ cd transformer_classic2chinese
+$ pip install -r requirements.txt
+```
+Or alternatively, you can simply run the following command and manually install the required packages.
+```bash
+$ python train.py
 ```
 
 ## Usage
