@@ -26,11 +26,37 @@ $ python train.py
 ```
 
 ## Usage
-
-Instructions on how to use your project.
-
+### Training
+To train the model, run the following command:
 ```bash
-$ npm start
+$ python train.py
+```
+After training, the model will be saved in the `models` directory.
+
+### Evaluation
+To evaluate the model, run the following command:
+```bash
+$ python evaluate.py
+```
+
+### Changing the training parameters
+If you want to change the training parameters, you can do so by modifying the `utils.py` file. The following parameters can be changed:
+- `BATCH_SIZE`: The batch size used during training. The default value is 128.
+- `EPOCHS`: The number of epochs to train the model. The default value is 100.
+- `LAYERS`: The number of layers in the Transformer model. The default value is 6.
+- `H_NUM`: The number of attention heads in the Transformer model. The default value is 8.
+- `D_MODEL`: The dimension of the model. The default value is 256.
+- `D_FF`: The dimension of the feedforward layer. The default value is 1024.
+- `DROPOUT`: The dropout rate. The default value is 0.1.
+- `MAX_LENGTH`: The maximum length of the input sequence. The default value is 120.
+
+### Changing the dataset
+If you want to train the model on a different dataset, you can do so by 
+modifying the dataset under `nmt\Classic-Chinese\` directory. The dataset should be in the following format:
+```
+<Traditional Chinese Sentence>\t<Simplified Chinese Sentence>
+<Traditional Chinese Sentence>\t<Simplified Chinese Sentence>
+...
 ```
 
 ## Contributing
