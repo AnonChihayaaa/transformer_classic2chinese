@@ -17,7 +17,7 @@ This is the implementation of TRA3, a TRAnsformer-Based TRAditional Chinese TRAs
 Instructions on how to install and run your project.
 
 ```bash
-$ git clone https://github.com/AnonChihayaaa/transformer-classic2chinese-.git
+$ git clone https://github.com/AnonChihayaaa/transformer_classic2chinese.git
 $ cd transformer_classic2chinese
 $ pip install -r requirements.txt
 ```
